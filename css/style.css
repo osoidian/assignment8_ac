@@ -347,4 +347,13 @@ footer p {
   .copyright {
     font-size: 0.75rem;
   }
+
+  #sidebar {
+    display: block;
+  }
+
+  .posts {
+    width: 600px;
+    display: block;
+  }
 }
