@@ -350,10 +350,31 @@ footer p {
 
   #sidebar {
     display: block;
+    width: 100%;
   }
 
-  .posts {
-    width: 600px;
+  #posts {
     display: block;
+    width: 550px;
+  }
+
+  .post img {
+    width: 550px;
+  }
+
+  .post h2 {
+    font-size: 2rem;
+  }
+
+  .post p {
+    font-size: 1.25rem;
+  }
+
+  .post p:first-of-type:first-letter {
+    font-size: 5rem;
+  }
+
+  #sidebar h3 {
+    font-size: 1.7rem;
   }
 }
