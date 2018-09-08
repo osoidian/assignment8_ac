@@ -85,10 +85,11 @@ header .logo {
 header nav {
   float: right;
   margin-top: 15px;
+  margin-right: 20px;
 }
 header nav ul li {
   display: inline-block;
-  margin: 0 0 0 40px;
+  margin: 0 0 0 20px;
   font-size: 24px;
 }
 header nav ul li a {
@@ -288,5 +289,62 @@ footer p {
   font-weight: 600;
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 1.25rem;
+    width: 100%
+  }
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
 
+  .logo {
+    font-size: 2.25rem;
+  }
 
+  header nav ul li {
+    font-size: 1.25rem;
+  }
+
+  #hero h2 {
+    font-size: 2.25rem;
+  }
+
+  .button {
+    font-weight: 800;
+    padding: 6px 0;
+    width: 200px;
+    font-size: 1.5rem;
+  }
+
+  #hero {
+    height: 500px;
+  }
+
+  h3 {
+    color: #033048;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  #benefits p, #benefits ul {
+    width: 400px;
+  }
+  #benefits ul {
+    list-style: disc;
+    margin: 30px 0 0 80px;
+  }
+
+  blockquote {
+    font-size: 1.5rem;
+  }
+
+  .blue {
+    font-size: 1.25rem;
+  }
+
+  .copyright {
+    font-size: 0.75rem;
+  }
+}
